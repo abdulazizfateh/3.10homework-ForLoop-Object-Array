@@ -21,7 +21,7 @@ console.log(task2(1, 10));
 
 const task3 = function (inputA, inputB) {
     let count = 0;
-    for (let i = inputB; i >= inputA; i--) {
+    for (let i = inputB - 1; i > inputA; i--) {
         console.log(i);
         count++;
     }
